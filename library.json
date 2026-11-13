@@ -1,13 +1,38 @@
 {
   "name": "NuaSense",
-  "version": "0.1.0",
-  "description": "Send your own sensors' readings (weather, soil, water, greenhouse, beehive, storage) to NuaSense, over HTTPS with the certificate checked.",
-  "keywords": ["weather station", "agriculture", "soil moisture", "iot", "esp32", "esp8266"],
-  "repository": { "type": "git", "url": "https://github.com/nuasense/nuasense-arduino.git" },
+  "version": "0.1.1",
+  "description": "IoT weather station and soil moisture library for ESP32 and ESP8266: NuaSense turns your sensors' readings into frost, irrigation and crop disease risk answers. For DIY weather stations and for garden, farm, greenhouse, beehive and storage monitoring. One add() per value, one send() per upload, over HTTPS with the certificate checked. In return: a data quality check for every sensor, frost tonight, spray windows, irrigation need and crop disease risk for your location. Works with any sensor you can read, for example BME280, DHT22, SHT31 or a capacitive soil moisture probe.",
+  "keywords": [
+    "weather station",
+    "soil moisture",
+    "agriculture",
+    "garden",
+    "greenhouse",
+    "irrigation",
+    "frost",
+    "iot",
+    "esp32",
+    "esp8266"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nuasense/nuasense-arduino.git"
+  },
   "homepage": "https://github.com/nuasense/nuasense-arduino",
-  "authors": [{ "name": "NuaSense", "email": "info@nuasense.com", "maintainer": true }],
+  "authors": [
+    {
+      "name": "NuaSense",
+      "email": "info@nuasense.com",
+      "maintainer": true
+    }
+  ],
   "license": "MIT",
-  "frameworks": ["arduino"],
-  "platforms": ["espressif32", "espressif8266"],
+  "frameworks": [
+    "arduino"
+  ],
+  "platforms": [
+    "espressif32",
+    "espressif8266"
+  ],
   "headers": "NuaSense.h"
 }

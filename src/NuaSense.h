@@ -13,7 +13,7 @@
 
 #include <Arduino.h>
 
-#define NUASENSE_VERSION "0.1.0"
+#define NUASENSE_VERSION "0.1.1"
 
 class NuaSense {
  public:
