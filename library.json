@@ -1,7 +1,7 @@
 {
   "name": "NuaSense",
   "version": "0.1.1",
-  "description": "IoT weather station and soil moisture library for ESP32 and ESP8266: NuaSense turns your sensors' readings into frost, irrigation and crop disease risk answers. For DIY weather stations and for garden, farm, greenhouse, beehive and storage monitoring. One add() per value, one send() per upload, over HTTPS with the certificate checked. In return: a data quality check for every sensor, frost tonight, spray windows, irrigation need and crop disease risk for your location. Works with any sensor you can read, for example BME280, DHT22, SHT31 or a capacitive soil moisture probe.",
+  "description": "IoT weather station and soil moisture library for ESP32 and ESP8266: NuaSense grades how accurate your weather sensors are (A to D) and turns your readings into frost, irrigation and crop disease risk answers. For DIY weather stations and for garden, farm, greenhouse, beehive and storage monitoring. One add() per value, one send() per upload, over HTTPS with the certificate checked. In return: a data quality check for every sensor, frost tonight, spray windows, irrigation need and crop disease risk for your location. Works with any sensor you can read, for example BME280, DHT22, SHT31 or a capacitive soil moisture probe.",
   "keywords": [
     "weather station",
     "soil moisture",
